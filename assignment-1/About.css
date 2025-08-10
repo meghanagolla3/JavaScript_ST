@@ -1,0 +1,27 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* position: relative;
+  top: 100px; */
+}
+img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.info{
+  display: flex;
+  position: relative;
+  top: 100px;
+}
+.para{
+  display: grid;
+  grid-template-columns: 200px 250px;
+  grid-template-rows: 120px 120px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 30px;
+}

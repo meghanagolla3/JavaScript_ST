@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1DOM</title>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        font-family: "Courier New", Courier, monospace;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid white;
+        text-align: center;
+        width: 60%;
+        margin: auto;
+        border-radius: 5px;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 10px;
+      }
+      li {
+        list-style: none;
+        text-align: center;
+        width: 85%;
+      }
+      .list-items {
+        background-color: white;
+        color: black;
+        margin: 1px;
+        padding: 5px;
+        font-weight: bold;
+      }
+      #main-heading {
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="main-heading">Favourite Movie</h1>
+      <ul>
+        <li class="list-items">Bahubali</li>
+        <li class="list-items">Kalki</li>
+        <li class="list-items">OG</li>
+        <li class="list-items">Ghati</li>
+        <li class="list-items">Arundhati</li>
+      </ul>
+    </div>
+    <script src="1.dom.js"></script>
+  </body>
+</html>

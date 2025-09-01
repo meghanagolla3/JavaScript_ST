@@ -1,0 +1,30 @@
+* {
+  font-family: "Fira Code";
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+.container {
+  width: 550px;
+  height: 450px;
+}
+.main-content {
+  box-shadow: 5px 5px 25px 0.3px black;
+  padding: 8px;
+  border-radius: 20px;
+  width: 100%;
+  height: 300px;
+  font-size: 1rem;
+}
+.header {
+  border: 1px solid black;
+  width: 80%;
+  margin: 20px auto;
+  padding: 5px;
+}
